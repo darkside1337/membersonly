@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cmyk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <title><%= locals.title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="/js/main.js" defer></script>
+  </head>
+
+  <body class="font-noto-sans bg-flux bg-cover flex flex-col min-h-screen">
+    <%- include("../partials/navbar.ejs") %>
+    <main class="main flex justify-center items-center w-full flex-1">
+      <%- body %>
+    </main>
+    <%- include("../partials/footer.ejs") %>
+  </body>
+</html>

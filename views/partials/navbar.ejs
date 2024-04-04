@@ -1,0 +1,42 @@
+<header class="header w-full h-24 shadow-lg flex justify-center">
+  <div class="mx-auto max-w-screen-xl px-2.5 md:px-20 w-full h-full">
+    <div class="w-full h-full flex items-center justify-between">
+      <a href="/">
+        <img
+          src="/img/logo.jpeg"
+          class="w-[74px] rounded-md"
+          alt="elite club logo"
+      /></a>
+      <nav>
+        <ul class="flex items-center gap-8">
+          <% if (!locals.isLoggedIn) { %>
+          <li>
+            <a role="button" class="btn btn-accent" href="/auth/signup"
+              >Sign up!</a
+            >
+          </li>
+          <li>
+            <a role="button" class="btn btn-primary" href="/auth/login"
+              >Log in</a
+            >
+          </li>
+          <% } else { %>
+          <li>
+            <a role="button" href="/auth/enlist" class="btn">Get Membership!</a>
+          </li>
+          <li>
+            <a role="button" href="/auth/admin" class="btn btn-primary"
+              >Become Admin!</a
+            >
+          </li>
+          <li>
+            <form action="/auth/logout" method="POST">
+              <button type="submit" class="btn btn-secondary">Log Out!</button>
+            </form>
+          </li>
+          <% } %>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
