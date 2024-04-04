@@ -15,7 +15,7 @@ Elite Club is an exclusive messaging platform where guests can view messages ano
 
 ## Live Demo
 
-Experience Elite Club live at [https://hduashidanapp.com/](https://hduashidanapp.com/).
+Experience Elite Club live at [https://membersonly-production-e9b1.up.railway.app/](https://membersonly-production-e9b1.up.railway.app/).
 
 ## Local Setup
 
@@ -62,7 +62,7 @@ npm start
 
 ## Contributions
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](#). Please adhere to this project's code of conduct.
+Contributions, issues, and feature requests are welcome!
 
 ## License
 
@@ -70,8 +70,8 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-Your Name - @yourtwitter - email
+Github: [https://github.com/darkside1337/](https://github.com/darkside1337/)
 
-Project Link: [https://github.com/yourusername/elite-club](https://github.com/yourusername/elite-club)
+Project Link: [https://github.com/darkside1337/membersonly](https://github.com/darkside1337/membersonly)
 
 This README offers a glimpse into Elite Club, a platform not just built as a messaging service but as a demonstration of sophisticated authentication, security, and styling techniques in web development.
